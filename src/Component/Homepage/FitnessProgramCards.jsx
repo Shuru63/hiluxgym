@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronRight, Scale, Heart, Dumbbell, Shield } from 'lucide-react';
 import AppDownload from './AppDownload';
+import { Link } from 'react-router-dom';
 // Custom hook for intersectiion observer
 const useIntersectionObserver = (threshold = 0.1) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -230,12 +231,12 @@ const FitnessProgramCards = () => {
               Ready to start your transformation journey?
             </h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl font-semibold hover:scale-105 transform transition-all duration-300 shadow-2xl hover:shadow-teal-500/25">
+              <Link to ="/pricing" className="px-8 py-4 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl font-semibold hover:scale-105 transform transition-all duration-300 shadow-2xl hover:shadow-teal-500/25">
                 Explore Programs
-              </button>
-              <button className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all duration-300">
+              </Link>
+              <Link to ="/contact" className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-xl font-semibold hover:bg-white/20 transition-all duration-300">
                 Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>

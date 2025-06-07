@@ -1,6 +1,7 @@
 import React from 'react';
 import { Download, Smartphone } from 'lucide-react';
 import useIntersectionObserver from './useIntersectionObserver';
+import { Link } from 'react-router-dom';
 
 const AppDownload = () => {
   const [ref, isVisible] = useIntersectionObserver(0.1);
@@ -42,10 +43,10 @@ const AppDownload = () => {
                 <Download className="w-5 h-5" />
                 <span>Download App</span>
               </button>
-              <button className="flex items-center space-x-2 bg-white/10 text-white px-6 py-3 rounded-lg hover:bg-white/20 transition-colors">
+              <Link to ="/contact" className="flex items-center space-x-2 bg-white/10 text-white px-6 py-3 rounded-lg hover:bg-white/20 transition-colors">
                 <Smartphone className="w-5 h-5" />
                 <span>Get Started</span>
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex justify-center">

@@ -15,6 +15,7 @@ const HiluxMembershipSection = () => {
   {
     title: "Basic Plan",
     price: "₹499/month",
+    planType: "basic",
     features: [
       "Access to gym equipment",
       "Locker facility",
@@ -25,6 +26,7 @@ const HiluxMembershipSection = () => {
   {
     title: "Standard Plan",
     price: "₹999/month",
+    planType: "standard",
     features: [
       "Everything in Basic",
       "Group fitness classes",
@@ -36,6 +38,7 @@ const HiluxMembershipSection = () => {
   {
     title: "Premium Plan",
     price: "₹1499/month",
+    planType: "premium",
     features: [
       "Everything in Standard",
       "Unlimited group classes",
@@ -47,6 +50,7 @@ const HiluxMembershipSection = () => {
   {
     title: "Elite Plan",
     price: "₹2499/month",
+    planType: "elite",
     features: [
       "All Premium benefits",
       "Home workout sessions",
@@ -56,6 +60,7 @@ const HiluxMembershipSection = () => {
     highlight: "Complete wellness package",
   },
 ];
+
 
   const specialPrograms = [
     { icon: Target, title: "hilux transform", description: "Get coached to lose weight for good" },
