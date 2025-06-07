@@ -23,7 +23,7 @@ const MembershipCard = ({
       'basic': '/plan/basic-plan',
       'standard': '/plan/standard-plan',
       'premium': '/plan/premium-plan',
-      'elite': '/plan/elite-plan' // Fixed typo: 'elits-plan' to 'elite-plan'
+      'elite': '/plan/elits-plan' // Fixed typo: 'elits-plan' to 'elite-plan'
     };
     return routes[type?.toLowerCase()] || '/plan/basic-plan';
   };

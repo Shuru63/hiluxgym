@@ -62,7 +62,7 @@ const BasicPlanDetails = ({ onBack }) => {
                 <div className="text-5xl font-bold text-orange-400">₹1999</div>
                 <div className="text-gray-400">
                   <div className="line-through">₹2999</div>
-                  <div className="text-sm">per month</div>
+                
                 </div>
                 <div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   33% OFF

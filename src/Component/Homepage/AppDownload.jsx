@@ -36,7 +36,7 @@ const AppDownload = () => {
               Download the most loved fitness app
             </h2>
             <p className="text-gray-300 text-lg mb-6">
-              Start your fitness journey with us. Join the cult!
+              Start your fitness journey with us. Join the Hilux fitness clud!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">

@@ -71,7 +71,6 @@ const ElitePlanDetails = ({ onBack }) => {
                 <div className="text-5xl font-bold text-yellow-400">₹14999</div>
                 <div className="text-gray-300">
                   <div className="line-through">₹15999</div>
-                  <div className="text-sm">per month</div>
                 </div>
                 <div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   33% OFF

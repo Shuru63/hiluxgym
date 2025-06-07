@@ -27,7 +27,7 @@ const StandardPlanDetails = ({ onBack }) => {
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-black text-white">
      
 
-      <div className="container mx-auto px-4 py-8 mt-12">
+      <div className="container mx-auto px-4 py-8 ">
         <div className="grid lg:grid-cols-2 gap-12 items-start mt-12 ">
           {/* Image Gallery */}
           <div className="space-y-4 ">
@@ -68,7 +68,6 @@ const StandardPlanDetails = ({ onBack }) => {
                 <div className="text-5xl font-bold text-blue-400">₹4999</div>
                 <div className="text-gray-400">
                   <div className="line-through">₹7999</div>
-                  <div className="text-sm">per month</div>
                 </div>
                 <div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   33% OFF

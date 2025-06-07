@@ -129,11 +129,11 @@ const FitnessProgramCards = () => {
 
   const programData = [
     {
-      title: "cult transform",
+      title: "Body transform",
       description: "Get coached to lose weight for good",
       bgColor: "bg-gradient-to-br from-teal-500 via-teal-600 to-cyan-600",
       textColor: "text-white",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format",
+      image: 'https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=800&h=600&fit=crop',
       icon: Scale,
       animationDirection: "left",
       delay: 100
@@ -154,7 +154,7 @@ const FitnessProgramCards = () => {
       description: "Everything you need for your workout",
       bgColor: "bg-gradient-to-br from-orange-500 via-red-500 to-pink-600",
       textColor: "text-white",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format",
+      image: 'https://images.unsplash.com/photo-1540496905036-5937c10647cc?w=800&h=600&fit=crop',
       icon: Dumbbell,
       animationDirection: "left",
       delay: 300
@@ -164,7 +164,7 @@ const FitnessProgramCards = () => {
       description: "Reverse Type 2 Diabetes and Prediabetes",
       bgColor: "bg-gradient-to-br from-green-500 via-emerald-600 to-teal-600",
       textColor: "text-white",
-      image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=400&h=400&fit=crop&auto=format",
+      image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&h=600&fit=crop',
       icon: Shield,
       animationDirection: "right",
       delay: 400
